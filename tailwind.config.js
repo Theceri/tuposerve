@@ -60,6 +60,7 @@ module.exports = {
         "neutral-mid": "#6C7A89",
         "neutral-light": "#F8F9FA",
         "neutral-border": "#E0E0E0",
+        "cyan-tint": "#E6F9FC",
       },
       borderRadius: {
         lg: "var(--radius)",

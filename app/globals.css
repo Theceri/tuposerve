@@ -23,7 +23,17 @@
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
-    --radius: 0.5rem;
+    --radius: 1rem;
+    
+    /* Tuposerve Brand Colors */
+    --primary-teal: 14 95% 19%;
+    --warm-orange: 34 86% 58%;
+    --bright-cyan: 187 69% 52%;
+    --neutral-dark: 0 0% 16%;
+    --neutral-mid: 220 10% 47%;
+    --neutral-light: 200 20% 98%;
+    --neutral-border: 0 0% 88%;
+    --cyan-tint: 188 50% 95%;
   }
 }
 
@@ -34,4 +44,42 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom background patterns */
+.hero-pattern {
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(62, 193, 211, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(242, 157, 53, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(14, 95, 99, 0.05) 0%, transparent 50%);
+}
+
+.services-pattern {
+  background-image: 
+    linear-gradient(135deg, rgba(14, 95, 99, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 70% 30%, rgba(242, 157, 53, 0.08) 0%, transparent 50%);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(62, 193, 211, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(62, 193, 211, 0.6); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
 }
