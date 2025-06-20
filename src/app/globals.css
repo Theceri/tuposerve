@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 16.5%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 16.5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 16.5%;
+    --primary: 184 75% 22%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 32 85% 58%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 40% 98%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 187 65% 52%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 32 85% 58%;
+    --radius: 1rem;
+  }
+}
+
+@layer utilities {
+  .text-primary-teal {
+    color: #0e5f63;
+  }
+
+  .text-warm-orange {
+    color: #f29d35;
+  }
+
+  .text-bright-cyan {
+    color: #3ec1d3;
+  }
+
+  .text-neutral-dark {
+    color: #2a2a2a;
+  }
+
+  .text-neutral-mid {
+    color: #6c7a89;
+  }
+
+  .bg-primary-teal {
+    background-color: #0e5f63;
+  }
+
+  .bg-warm-orange {
+    background-color: #f29d35;
+  }
+
+  .bg-bright-cyan {
+    background-color: #3ec1d3;
+  }
+
+  .bg-neutral-light {
+    background-color: #f8f9fa;
+  }
+
+  .border-neutral-border {
+    border-color: #e0e0e0;
+  }
+
+  .bg-cyan-tint {
+    background-color: rgba(62, 193, 211, 0.05);
+  }
+}
