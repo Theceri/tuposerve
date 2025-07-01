@@ -17,7 +17,7 @@ export default function Contact() {
   });
 
   // Phone number for WhatsApp integration (from user's sample form)
-  const whatsappPhoneNumber = "254721311449"; 
+  const whatsappPhoneNumber = "254717661139"; 
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -147,7 +147,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3 text-gray-700">
                   <Phone className="h-6 w-6 text-orange-400" /> {/* Adjusted icon color */}
-                  <span>+254 721 311 449</span>
+                  <span>+254 717 661 139</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-700">
                   <Mail className="h-6 w-6 text-orange-400" /> {/* Adjusted icon color */}

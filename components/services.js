@@ -160,7 +160,7 @@ export default function Services() {
                 </CardHeader>
                 
                 <CardContent className="p-4 sm:p-6 flex flex-col h-full">
-                  <p className="text-neutral-dark mb-4 text-sm sm:text-base leading-relaxed flex-grow">
+                  <p className="text-neutral-dark mb-2 text-sm sm:text-base leading-relaxed">
                     {service.description}
                   </p>
                   
@@ -217,7 +217,7 @@ export default function Services() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                <div className="relative inline-block mb-6">
+                <div className="relative inline-block mb-4">
                   <Users className="h-16 w-16 sm:h-20 sm:w-20 text-warm-orange mx-auto" />
                   <div className="absolute -top-2 -right-2 w-6 h-6 bg-bright-cyan rounded-full flex items-center justify-center">
                     <span className="text-white text-xs font-bold">+</span>

@@ -31,7 +31,7 @@ export default function HomePage() {
                 <div className="p-1 bg-bright-cyan/20 rounded-full">
                   <Phone className="h-3 w-3 sm:h-4 sm:w-4 text-bright-cyan" />
                 </div>
-                <span className="text-white/90">+254 721 311 449</span>
+                <span className="text-white/90">+254 717 661 139</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="p-1 bg-warm-orange/20 rounded-full">

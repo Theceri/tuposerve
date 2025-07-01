@@ -82,38 +82,38 @@ export default function HowItWorks() {
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-cyan-tint via-cyan-tint/50 to-white relative overflow-hidden">
       {/* Background decorations */}
-      <motion.div 
+      <motion.div
         className="absolute top-20 right-10 text-primary-teal/10"
-        animate={{ 
+        animate={{
           rotate: [0, 360],
-          scale: [1, 1.2, 1] 
+          scale: [1, 1.2, 1]
         }}
-        transition={{ 
-          duration: 30, 
+        transition={{
+          duration: 30,
           repeat: Infinity,
-          ease: "linear" 
+          ease: "linear"
         }}
       >
         <Search className="h-32 w-32" />
       </motion.div>
-      
-      <motion.div 
+
+      <motion.div
         className="absolute bottom-20 left-10 text-bright-cyan/10"
-        animate={{ 
+        animate={{
           rotate: [360, 0],
-          scale: [1, 1.1, 1] 
+          scale: [1, 1.1, 1]
         }}
-        transition={{ 
-          duration: 25, 
+        transition={{
+          duration: 25,
           repeat: Infinity,
-          ease: "linear" 
+          ease: "linear"
         }}
       >
         <Shield className="h-24 w-24" />
       </motion.div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <motion.div 
+        <motion.div
           className="text-center mb-12 lg:mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -124,9 +124,9 @@ export default function HowItWorks() {
             <Shield className="h-4 w-4 text-primary-teal mr-2" />
             <span className="text-sm font-medium text-primary-teal">Simple & Secure Process</span>
           </div>
-          
+
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-teal mb-4 lg:mb-6">
-            How 
+            How
             <span className="text-transparent bg-gradient-to-r from-warm-orange to-bright-cyan bg-clip-text"> Tuposerve</span>
             <br className="hidden sm:block" />
             Works
@@ -137,7 +137,7 @@ export default function HowItWorks() {
           </p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
           variants={containerVariants}
           initial="hidden"
@@ -149,16 +149,16 @@ export default function HowItWorks() {
               key={index}
               className="relative group"
               variants={itemVariants}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.03,
                 transition: { duration: 0.2 }
               }}
             >
               <Card className={`relative overflow-hidden bg-gradient-to-br ${step.bgGradient} border-2 ${step.borderColor} shadow-lg hover:shadow-2xl transition-all duration-300 h-full`}>
                 <CardContent className="p-6 lg:p-8 text-center relative">
-                  {/* Step number */}
-                  <motion.div 
-                    className="absolute -top-4 -left-4 bg-gradient-to-r from-primary-teal to-primary-teal/90 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-lg z-10"
+                  {/* Step number - Adjusted to be visible */}
+                  <motion.div
+                    className="absolute top-4 left-4 bg-gradient-to-r from-primary-teal to-primary-teal/90 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-lg z-10"
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     viewport={{ once: true }}
@@ -168,7 +168,7 @@ export default function HowItWorks() {
                   </motion.div>
 
                   {/* Icon */}
-                  <motion.div 
+                  <motion.div
                     className={`${step.color} w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg relative`}
                     whileHover={{ rotate: 5, scale: 1.1 }}
                     transition={{ duration: 0.2 }}
@@ -193,7 +193,7 @@ export default function HowItWorks() {
 
               {/* Connecting line for desktop */}
               {index < steps.length - 1 && (
-                <motion.div 
+                <motion.div
                   className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-20"
                   variants={lineVariants}
                   initial="hidden"
@@ -209,7 +209,7 @@ export default function HowItWorks() {
 
               {/* Connecting arrow for mobile */}
               {index < steps.length - 1 && (
-                <motion.div 
+                <motion.div
                   className="lg:hidden flex justify-center my-4"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -232,7 +232,7 @@ export default function HowItWorks() {
         </motion.div>
 
         {/* Call to action */}
-        <motion.div 
+        <motion.div
           className="mt-12 lg:mt-16 text-center"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

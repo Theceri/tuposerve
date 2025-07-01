@@ -71,23 +71,23 @@ export default function Services() {
                   <CardTitle className="text-white">{service.title}</CardTitle>
                 </div>
               </CardHeader>
-              <CardContent className="p-6">
-                <p className="text-neutral-dark mb-4">{service.description}</p>
-                <ul className="space-y-2 mb-6">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-sm text-neutral-mid">
-                      <div className="w-2 h-2 bg-warm-orange rounded-full mr-3"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button
-                  variant="outline"
-                  className="w-full border-warm-orange text-warm-orange hover:bg-warm-orange hover:text-white"
-                >
-                  View Professionals
-                </Button>
-              </CardContent>
+              <CardContent className="p-6"> {/* Added p-6 back */}
+  <p className="">{service.description}</p>
+  <ul className="">
+    {service.features.map((feature, idx) => (
+      <li key={idx} className="flex items-center text-sm text-neutral-mid">
+        <div className="w-2 h-2 bg-warm-orange rounded-full mr-3"></div>
+        {feature}
+      </li>
+    ))}
+  </ul>
+  <Button
+    variant="outline"
+    className="w-full border-warm-orange text-warm-orange hover:bg-warm-orange hover:text-white"
+  >
+    View Professionals
+  </Button>
+</CardContent>
             </Card>
           ))}
         </div>
