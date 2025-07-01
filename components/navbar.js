@@ -26,7 +26,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>walter</span>
+                <span>+254 717 661 139</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
