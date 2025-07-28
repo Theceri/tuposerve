@@ -95,13 +95,13 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <a href="#services" className="group">
+              <a href="#contact" className="group">
                 <Button size="lg" className="flex items-center justify-center bg-gradient-to-r from-warm-orange to-warm-orange/90 hover:from-warm-orange/90 hover:to-warm-orange text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   Find Services
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="#services" className="group">
+              <a href="#contact" className="group">
                 <Button
                   size="lg"
                   variant="outline"
