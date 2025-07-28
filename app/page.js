@@ -41,7 +41,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hidden md:block text-white/70">
-              <span>2nd Floor, Spur Mall, Thika Road, Nairobi</span>
+              <span>Nairobi CBD, Moi Avenue</span>
             </div>
           </div>
         </div>
