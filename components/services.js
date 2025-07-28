@@ -112,7 +112,7 @@ export default function Services() {
             <span className="text-transparent bg-gradient-to-r from-bright-cyan to-warm-orange bg-clip-text"> Services</span>
           </h2>
           <p className="text-lg sm:text-xl text-neutral-mid max-w-4xl mx-auto leading-relaxed">
-            From household management to technical repairs, we connect you with vetted professionals across 
+            From household management to technical repairs, we connect you with certified professionals across 
             <span className="font-semibold text-primary-teal"> 50+ service categories.</span>
           </p>
         </motion.div>
@@ -226,10 +226,10 @@ export default function Services() {
                 </div>
               </motion.div>
               
-              <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-teal mb-3">
+              {/* <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-teal mb-3">
                 50+ Additional 
                 <span className="text-transparent bg-gradient-to-r from-warm-orange to-bright-cyan bg-clip-text"> Trades</span>
-              </h3>
+              </h3> */}
               
               <p className="text-neutral-mid mb-6 text-base sm:text-lg max-w-md mx-auto">
                 From mechanics to carpenters, all certified and ready to deploy.
@@ -260,20 +260,20 @@ export default function Services() {
               </div>
               
               {/* Trust indicators */}
-              <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-8 pt-6 border-t border-neutral-border">
-                <div className="text-center">
-                  <div className="text-xl sm:text-2xl font-bold text-primary-teal">98%</div>
-                  <div className="text-xs text-neutral-mid">Success Rate</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-xl sm:text-2xl font-bold text-warm-orange">24h</div>
-                  <div className="text-xs text-neutral-mid">Response Time</div>
-                </div>
-                {/* <div className="text-center">
-                  <div className="text-xl sm:text-2xl font-bold text-bright-cyan">5000+</div>
-                  <div className="text-xs text-neutral-mid">Happy Clients</div>
-                </div> */}
-              </div>
+<div className="flex justify-center gap-4 sm:gap-8 mt-8 pt-6 border-t border-neutral-border"> {/* Key change here */}
+  <div className="text-center">
+    <div className="text-xl sm:text-2xl font-bold text-primary-teal">98%</div>
+    <div className="text-xs text-neutral-mid">Success Rate</div>
+  </div>
+  <div className="text-center">
+    <div className="text-xl sm:text-2xl font-bold text-warm-orange">24h</div>
+    <div className="text-xs text-neutral-mid">Response Time</div>
+  </div>
+  {/* <div className="text-center">
+    <div className="text-xl sm:text-2xl font-bold text-bright-cyan">5000+</div>
+    <div className="text-xs text-neutral-mid">Happy Clients</div>
+  </div> */}
+</div>
             </CardContent>
           </Card>
         </motion.div>

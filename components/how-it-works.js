@@ -137,8 +137,9 @@ export default function HowItWorks() {
           </p>
         </motion.div>
 
+        {/* Changed this div for centering */}
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+          className="flex flex-wrap justify-center gap-6 lg:gap-8 max-w-7xl mx-auto" // Key changes here
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -147,7 +148,7 @@ export default function HowItWorks() {
           {steps.map((step, index) => (
             <motion.div
               key={index}
-              className="relative group"
+              className="relative group w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] xl:w-[calc(25%-1.5rem)] max-w-sm" // Adjusted width for responsiveness
               variants={itemVariants}
               whileHover={{
                 scale: 1.03,
