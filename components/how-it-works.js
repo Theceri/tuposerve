@@ -17,7 +17,7 @@ export default function HowItWorks() {
     {
       icon: UserCheck,
       title: "Review Profiles",
-      description: "Browse vetted professional profiles, read reviews, and compare ratings before making your choice.",
+      description: "Browse certified professional profiles, read reviews, and compare ratings before making your choice.",
       color: "bg-bright-cyan",
       iconColor: "text-bright-cyan",
       bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
@@ -32,15 +32,15 @@ export default function HowItWorks() {
       bgGradient: "from-warm-orange/10 to-warm-orange/5",
       borderColor: "border-warm-orange/20",
     },
-    {
-      icon: Shield,
-      title: "Protected Service",
-      description: "Every booking is backed by insurance coverage and our dedicated customer care team.",
-      color: "bg-bright-cyan",
-      iconColor: "text-bright-cyan",
-      bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
-      borderColor: "border-bright-cyan/20",
-    },
+    // {
+    //   icon: Shield,
+    //   title: "Protected Service",
+    //   description: "Every booking is backed by insurance coverage and our dedicated customer care team.",
+    //   color: "bg-bright-cyan",
+    //   iconColor: "text-bright-cyan",
+    //   bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
+    //   borderColor: "border-bright-cyan/20",
+    // },
   ]
 
   const containerVariants = {

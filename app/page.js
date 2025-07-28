@@ -198,7 +198,7 @@ export default function HomePage() {
         </div>
 
         {/* Testimonials Section */}
-        <Testimonials />
+        {/* <Testimonials /> */}
 
         {/* Stats Section */}
         <Stats />
@@ -246,7 +246,7 @@ export default function HomePage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 lg:mb-6">
-                  Tuposerve—connecting you with the best service talent in Nairobi, one job at a time.
+                  Tuposerve—connecting you with the best service talent in Nairobi.
                 </h3>
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 lg:mt-8">
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>

@@ -6,16 +6,7 @@ import { motion } from "framer-motion"
 
 export default function Services() {
   const services = [
-    {
-      icon: Home,
-      title: "House Girls",
-      description: "Cleaning, cooking, childcare, errands—domestic support you can trust.",
-      features: ["Background checked", "Trained professionals", "Flexible schedules"],
-      color: "text-warm-orange",
-      bgGradient: "from-warm-orange/10 to-warm-orange/5",
-      borderColor: "border-warm-orange/20",
-      hoverShadow: "hover:shadow-warm-orange/20",
-    },
+    
     {
       icon: Car,
       title: "Mechanics",
@@ -65,6 +56,16 @@ export default function Services() {
       bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
       borderColor: "border-bright-cyan/20",
       hoverShadow: "hover:shadow-bright-cyan/20",
+    },
+    {
+      icon: Home,
+      title: "Erranders",
+      description: "Cleaning, cooking, childcare, errands—domestic support you can trust.",
+      features: ["Background checked", "Easily accessible", "Flexible schedules"],
+      color: "text-warm-orange",
+      bgGradient: "from-warm-orange/10 to-warm-orange/5",
+      borderColor: "border-warm-orange/20",
+      hoverShadow: "hover:shadow-warm-orange/20",
     },
   ]
 
@@ -231,7 +232,7 @@ export default function Services() {
               </h3>
               
               <p className="text-neutral-mid mb-6 text-base sm:text-lg max-w-md mx-auto">
-                From gardeners to security guards, all vetted and ready to deploy.
+                From mechanics to carpenters, all certified and ready to deploy.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -268,10 +269,10 @@ export default function Services() {
                   <div className="text-xl sm:text-2xl font-bold text-warm-orange">24h</div>
                   <div className="text-xs text-neutral-mid">Response Time</div>
                 </div>
-                <div className="text-center">
+                {/* <div className="text-center">
                   <div className="text-xl sm:text-2xl font-bold text-bright-cyan">5000+</div>
                   <div className="text-xs text-neutral-mid">Happy Clients</div>
-                </div>
+                </div> */}
               </div>
             </CardContent>
           </Card>
