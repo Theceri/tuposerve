@@ -31,7 +31,7 @@ export default function HomePage() {
                 <div className="p-1 bg-bright-cyan/20 rounded-full">
                   <Phone className="h-3 w-3 sm:h-4 sm:w-4 text-bright-cyan" />
                 </div>
-                <span className="text-white/90">+254 721 311 449</span>
+                <span className="text-white/90">+254 717 661 139</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="p-1 bg-warm-orange/20 rounded-full">
@@ -41,7 +41,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hidden md:block text-white/70">
-              <span>2nd Floor, Spur Mall, Thika Road, Nairobi</span>
+              <span>Nairobi CBD, Moi Avenue</span>
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function HomePage() {
         </div>
 
         {/* Testimonials Section */}
-        <Testimonials />
+        {/* <Testimonials /> */}
 
         {/* Stats Section */}
         <Stats />
@@ -246,7 +246,7 @@ export default function HomePage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 lg:mb-6">
-                  Tuposerve—connecting you with the best service talent in Nairobi, one job at a time.
+                  Tuposerve—connecting you with the best service talent in Nairobi.
                 </h3>
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 lg:mt-8">
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>

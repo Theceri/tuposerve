@@ -84,7 +84,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-lg sm:text-xl text-neutral-mid leading-relaxed max-w-xl mx-auto lg:mx-0">
-                Connect with vetted, reliable service professionals. From house girls to mechanics and 50+ other trades.
+                Connect with certified, reliable service professionals. From electricians to mechanics.
                 <span className="font-semibold text-primary-teal"> Quality service you can trust.</span>
               </p>
             </motion.div>
@@ -95,7 +95,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <a href="#services" className="group">
+              <a href="#contact" className="group">
                 <Button size="lg" className="flex items-center justify-center bg-gradient-to-r from-warm-orange to-warm-orange/90 hover:from-warm-orange/90 hover:to-warm-orange text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   Find Services
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -122,7 +122,7 @@ export default function Hero() {
                 <div className="p-2 bg-bright-cyan/10 rounded-full">
                   <CheckCircle className="h-6 w-6 text-bright-cyan" />
                 </div>
-                <span className="text-neutral-dark font-medium text-sm lg:text-base">Vetted Professionals</span>
+                <span className="text-neutral-dark font-medium text-sm lg:text-base">Certified Professionals</span>
               </div>
               <div className="flex flex-col sm:flex-row items-center space-x-0 sm:space-x-2 space-y-2 sm:space-y-0 text-center sm:text-left">
                 <div className="p-2 bg-warm-orange/10 rounded-full">
@@ -135,6 +135,12 @@ export default function Hero() {
                   <Clock className="h-6 w-6 text-primary-teal" />
                 </div>
                 <span className="text-neutral-dark font-medium text-sm lg:text-base">24/7 Support</span>
+              </div>
+              <div className="flex flex-col sm:flex-row items-center space-x-0 sm:space-x-2 space-y-2 sm:space-y-0 text-center sm:text-left">
+                <div className="p-2 bg-primary-teal/10 rounded-full">
+                  <Clock className="h-6 w-6 text-primary-teal" />
+                </div>
+                <span className="text-neutral-dark font-medium text-sm lg:text-base">On demand engagement</span>
               </div>
             </motion.div>
           </motion.div>
@@ -180,10 +186,10 @@ export default function Hero() {
                       transition={{ duration: 0.2 }}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="font-medium text-neutral-dark">House Cleaning</span>
-                        <span className="text-warm-orange font-bold text-lg">KSh 2,500</span>
+                        <span className="font-medium text-neutral-dark">House Maintenance</span>
+                        {/* <span className="text-warm-orange font-bold text-lg">KSh 2,500</span> */}
                       </div>
-                      <p className="text-sm text-neutral-mid mt-1">Professional house girl • 4 hours</p>
+                      <p className="text-sm text-neutral-mid mt-1">Professional Errander • 4 hours</p>
                       <div className="flex items-center mt-2">
                         <div className="flex-1 bg-bright-cyan/20 rounded-full h-2">
                           <motion.div 
@@ -204,7 +210,7 @@ export default function Hero() {
                     >
                       <div className="flex items-center justify-between">
                         <span className="font-medium text-neutral-dark">Car Service</span>
-                        <span className="text-warm-orange font-bold text-lg">KSh 3,500</span>
+                        {/* <span className="text-warm-orange font-bold text-lg">KSh 3,500</span> */}
                       </div>
                       <p className="text-sm text-neutral-mid mt-1">Certified mechanic • Full service</p>
                       <div className="flex items-center mt-2">
@@ -235,10 +241,10 @@ export default function Hero() {
                   
                   {/* Trust indicators */}
                   <div className="flex items-center justify-center space-x-6 pt-4 border-t border-neutral-border">
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <div className="text-2xl font-bold text-primary-teal">5000+</div>
                       <div className="text-xs text-neutral-mid">Happy Clients</div>
-                    </div>
+                    </div> */}
                     <div className="text-center">
                       <div className="text-2xl font-bold text-warm-orange">500+</div>
                       <div className="text-xs text-neutral-mid">Professionals</div>

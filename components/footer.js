@@ -8,7 +8,6 @@ export default function Footer() {
 
   const supportLinks = [
     "Help Center",
-    "Safety",
     "Terms of Service",
     "Privacy Policy",
     "Community Guidelines",
@@ -24,7 +23,7 @@ export default function Footer() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Tuposerve</h3>
               <p className="text-white/80 leading-relaxed">
-                Kenya's premier on-demand platform connecting households and businesses with vetted, reliable service
+                Kenya's premier on-demand platform connecting households and businesses with certified, reliable service
                 professionals.
               </p>
             </div>
@@ -32,7 +31,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-warm-orange" />
-                <span>+254 721 311 449</span>
+                <span>+254 717 661 139</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-warm-orange" />
@@ -40,7 +39,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-warm-orange mt-1" />
-                <span>2nd Floor, Spur Mall, Thika Road, Nairobi</span>
+                <span>Nairobi CBD, Moi Avenue</span>
               </div>
             </div>
           </div>
