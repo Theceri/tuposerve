@@ -17,7 +17,7 @@ export default function HowItWorks() {
     {
       icon: UserCheck,
       title: "Review Profiles",
-      description: "Browse vetted professional profiles, read reviews, and compare ratings before making your choice.",
+      description: "Browse certified professional profiles, read reviews, and compare ratings before making your choice.",
       color: "bg-bright-cyan",
       iconColor: "text-bright-cyan",
       bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
@@ -32,15 +32,15 @@ export default function HowItWorks() {
       bgGradient: "from-warm-orange/10 to-warm-orange/5",
       borderColor: "border-warm-orange/20",
     },
-    {
-      icon: Shield,
-      title: "Protected Service",
-      description: "Every booking is backed by insurance coverage and our dedicated customer care team.",
-      color: "bg-bright-cyan",
-      iconColor: "text-bright-cyan",
-      bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
-      borderColor: "border-bright-cyan/20",
-    },
+    // {
+    //   icon: Shield,
+    //   title: "Protected Service",
+    //   description: "Every booking is backed by insurance coverage and our dedicated customer care team.",
+    //   color: "bg-bright-cyan",
+    //   iconColor: "text-bright-cyan",
+    //   bgGradient: "from-bright-cyan/10 to-bright-cyan/5",
+    //   borderColor: "border-bright-cyan/20",
+    // },
   ]
 
   const containerVariants = {
@@ -137,8 +137,9 @@ export default function HowItWorks() {
           </p>
         </motion.div>
 
+        {/* Changed this div for centering */}
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+          className="flex flex-wrap justify-center gap-6 lg:gap-8 max-w-7xl mx-auto" // Key changes here
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -147,7 +148,7 @@ export default function HowItWorks() {
           {steps.map((step, index) => (
             <motion.div
               key={index}
-              className="relative group"
+              className="relative group w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(33.333%-1.5rem)] xl:w-[calc(25%-1.5rem)] max-w-sm" // Adjusted width for responsiveness
               variants={itemVariants}
               whileHover={{
                 scale: 1.03,

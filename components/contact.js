@@ -125,7 +125,7 @@ export default function Contact() {
                 <div className="h-80 w-full rounded-lg overflow-hidden border border-gray-200">
                   {/* Google Maps Embed - Replace src with your actual location embed code */}
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.033593456013!2d36.96765887372658!3d-1.1363901354780606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fc955678a67%3A0xb42cac64d8e16dea!2sSpur%20Mall!5e0!3m2!1sen!2ske!4v1750346343615!5m2!1sen!2ske"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81733952971!2d36.82098707372745!3d-1.2834620356204276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d6678064cf%3A0x956bb6f5e0ab2aac!2sMoi%20Ave%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1753678978482!5m2!1sen!2ske"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -143,7 +143,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-teal-800 mb-4">Contact Details</h3> {/* Adjusted text color */}
                 <div className="flex items-center space-x-3 text-gray-700">
                   <MapPin className="h-6 w-6 text-orange-400" /> {/* Adjusted icon color */}
-                  <span>2nd Floor, Spur Mall, Thika Road, Nairobi</span>
+                  <span>Nairobi CBD, Moi Avenue</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-700">
                   <Phone className="h-6 w-6 text-orange-400" /> {/* Adjusted icon color */}

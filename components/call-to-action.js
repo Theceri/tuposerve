@@ -88,7 +88,7 @@ export default function CallToAction() {
         <div className="text-center mt-16">
           <div className="bg-white/10 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold mb-4">
-              Tuposerve—connecting you with the best service talent in Nairobi, one job at a time.
+              Tuposerve—connecting you with the best service talent in Nairobi.
             </h3>
             <Button size="lg" className="bg-warm-orange hover:bg-warm-orange/90 text-white px-8 py-4 text-lg">
               Get Started Now

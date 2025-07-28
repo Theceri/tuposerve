@@ -106,10 +106,10 @@ export default function Testimonials() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-warm-orange/10 to-bright-cyan/10 rounded-full border border-warm-orange/20 mb-6">
+          {/* <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-warm-orange/10 to-bright-cyan/10 rounded-full border border-warm-orange/20 mb-6">
             <Star className="h-4 w-4 text-warm-orange mr-2" />
             <span className="text-sm font-medium text-primary-teal">5000+ Happy Customers</span>
-          </div>
+          </div> */}
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-teal mb-4 lg:mb-6">
             What Our 

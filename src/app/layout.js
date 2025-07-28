@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Tuposerve - Your Trusted Service Marketplace in Nairobi",
   description:
-    "Connect with vetted, reliable service professionals in Nairobi. From house girls to mechanics and 50+ other trades. Quality service you can trust.",
+    "Connect with certified, reliable service professionals in Nairobi. From house girls to mechanics and 50+ other trades. Quality service you can trust.",
 }
 
 export default function RootLayout({ children }) {
